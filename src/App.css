@@ -432,6 +432,31 @@ select {
     transition: none !important;
   }
 
+   @media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  #printable-summary,
+  #printable-summary * {
+    visibility: visible;
+  }
+
+  #printable-summary {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff !important;
+    box-shadow: none !important;
+  }
+}
   .info-card:hover,
   .nav-tab:hover,
   .filter-pill:hover {
