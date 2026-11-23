@@ -432,7 +432,16 @@ select {
     transition: none !important;
   }
 
-   @media print {
+  .info-card:hover,
+  .nav-tab:hover,
+  .filter-pill:hover {
+    transform: none;
+  }
+}
+
+/* ---------- Print Layout ---------- */
+
+@media print {
   @page {
     size: A4 portrait;
     margin: 12mm;
@@ -457,7 +466,6 @@ select {
     box-shadow: none !important;
   }
 }
-  .info-card:hover,
   .nav-tab:hover,
   .filter-pill:hover {
     transform: none;
