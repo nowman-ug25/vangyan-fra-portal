@@ -466,8 +466,4 @@ select {
     box-shadow: none !important;
   }
 }
-  .nav-tab:hover,
-  .filter-pill:hover {
-    transform: none;
-  }
-}
+ 
