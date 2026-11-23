@@ -1,3 +1,9 @@
+/*
+ * Project: Vangyan — Adivasi Rights & Empowerment Portal
+ * Note: Portions of the React component structure, CSS styling, and static dataset
+ * formatting were generated with the assistance of an LLM (Google Gemini) and
+ * subsequently reviewed, integrated, and tested by the project team.
+ */
 import { useState } from "react";
 import "./App.css";
 import RightsNavigator from "./components/RightsNavigator";
